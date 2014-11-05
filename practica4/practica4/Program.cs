@@ -7,16 +7,38 @@
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
 using System;
-
+using System.IO;
 namespace practica4
 {
 	class Program
 	{
 		public static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			String ruta;
 			
-			// TODO: Implement Functionality Here
+			do {
+			int opc=0;
+			Console.WriteLine("presione 1 para leer archivo");
+			Console.WriteLine("presione 2 para salir");
+			try
+            {
+                using (StreamReader leer = new StreamReader(ruta, false))
+                {
+                	Console.WriteLine("ingrese ruta de archivo");
+			Console.WriteLine("EJEMPLO: C:\\archivo.csv");
+			ruta=Console.ReadLine();
+                    string line;
+                    while ((line = leer.ReadLine()) != null)
+                    {
+                        Console.WriteLine(line);
+                    }
+                }
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("El archivo no se puede leer");
+            }
+			}while(opc!=0);
 			
 			Console.Write("Press any key to continue . . . ");
 			Console.ReadKey(true);
