@@ -1,0 +1,5 @@
+C:\Users\BETY\Documents\repositorios\practica4\practica4.1\practica4.1\bin\Debug\practica4.1.exe
+C:\Users\BETY\Documents\repositorios\practica4\practica4.1\practica4.1\bin\Debug\practica4.1.pdb
+C:\Users\BETY\Documents\repositorios\practica4\practica4.1\practica4.1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\BETY\Documents\repositorios\practica4\practica4.1\practica4.1\obj\x86\Debug\practica4.1.exe
+C:\Users\BETY\Documents\repositorios\practica4\practica4.1\practica4.1\obj\x86\Debug\practica4.1.pdb
